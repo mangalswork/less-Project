@@ -1,0 +1,224 @@
+::selection {
+  color: #fff;
+  background: #2282BC;
+}
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+}
+div,ul,li,a,input,img,select,textarea,input[type="submit"],header,footer,span, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, caption, canvas, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header,
+hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp,
+section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video {
+    font-size: 100%;
+    vertical-align: baseline;
+    white-space: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0px none !important;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition:.2s;
+    -o-transition: .2s;
+    text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+p {
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+section {
+	width: 100%;
+	float: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.d-line {
+	display: inline-block;
+}
+.d-block {
+	display: block;
+}
+.v-middle {
+	vertical-align: middle;
+}
+.v-top {
+	vertical-align: top;
+}
+.v-bottom {
+	vertical-align: bottom;
+}
+.p-n {
+	padding: 0;
+}
+.p-t-none {
+	padding-top: 0px;
+}
+.p-t-xs {
+	padding-top: 5px;
+}
+.p-t-sm {
+	padding-top: 10px;
+}
+.p-t-md {
+	padding-top: 15px;
+}
+.p-t-lg {
+	padding-top: 25px;
+}
+.p-b-none {
+	padding-bottom: 0px;
+}
+.p-b-xs {
+	padding-bottom: 5px;
+}
+.p-b-sm {
+	padding-bottom: 10px;
+}
+.p-b-md {
+	padding-bottom: 15px;
+}
+.p-b-lg {
+	padding-bottom: 25px;
+}
+.p-l-none {
+	padding-left: 0px;
+}
+.p-l-xs {
+	padding-left: 5px;
+}
+.p-l-sm {
+	padding-left: 10px;
+}
+.p-l-md {
+	padding-left: 15px;
+}
+.p-l-lg {
+	padding-left: 25px;
+}
+.p-r-none {
+	padding-right: 0px;
+}
+.p-r-xs {
+	padding-right: 5px;
+}
+.p-r-sm {
+	padding-right: 10px;
+}
+.p-r-md {
+	padding-right: 15px;
+}
+.p-r-lg {
+	padding-right: 25px;
+}
+.m-n {
+	margin: 0;
+}
+.m-t-xs {
+	margin-top: 5px;
+}
+.m-t-sm {
+	margin-top: 10px;
+}
+.m-t-md {
+	margin-top: 15px;
+}
+.m-t-lg {
+	margin-top: 25px;
+}
+.m-b-xs {
+	margin-bottom: 5px;
+}
+.m-b-sm {
+	margin-bottom: 10px;
+}
+.m-b-md {
+	margin-bottom: 15px;
+}
+.m-b-lg {
+	margin-bottom: 25px;
+}
+.m-l-xs {
+	margin-left: 5px;
+}
+.m-l-sm {
+	margin-left: 10px;
+}
+.m-l-md {
+	margin-left: 15px;
+}
+.m-l-lg {
+	margin-left: 25px;
+}
+.m-r-xs {
+	margin-right: 5px;
+}
+.m-r-sm {
+	margin-right: 10px;
+}
+.m-r-md {
+	margin-right: 15px;
+}
+.m-r-lg {
+	margin-right: 25px;
+}
+.hollow-btn, input.hollow-btn {
+	color: #1abc9c;	
+	padding: 5px 15px;	
+	background: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #1abc9c;
+	display: inline-block;
+}
+.hollow-btn:hover {
+	color: white;
+	background: #1abc9c;		
+}
+.filled-btn {
+	color: #ffffff;	
+	padding: 5px 15px;	
+	background: #1abc9c;
+	border-radius: 5px;
+	border: 1px solid #1abc9c;
+	display: inline-block;
+}
+.filled-btn:hover {
+	color: #1abc9c;
+	background: white;		
+}
+.form-control {
+	margin-bottom: 15px;
+}
