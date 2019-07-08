@@ -1,1 +1,197 @@
-@charset "utf-8";@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);body{margin:0;padding:0;height:100%;width:100%;color:#333;font-family:Raleway,sans-serif}.header.home-page .navbar-default{box-shadow:0 1px 2px 0 #ddd}.header .navbar-default{background:#fff;border:none}.header .navbar-default.navbar{min-height:80px;margin:0}.header .navbar-default .navbar-nav>.active>a,.header .navbar-default .navbar-nav>.active>a:focus,.header .navbar-default .navbar-nav>.active>a:hover,.header .navbar-default .navbar-nav>li>a:focus,.header .navbar-default .navbar-nav>li>a:hover{color:#fff;background-color:#1abc9c}.header .navbar-default .navbar-toggle{margin-top:25px;background-color:#1abc9c}.header .navbar-default .navbar-toggle:focus,.header .navbar-default .navbar-toggle:hover{background-color:#1abc9c}.header .navbar-default .navbar-toggle .icon-bar{background-color:#fff}.header .navbar-header .navbar-brand{line-height:normal;min-height:80px;padding:30px 15px}@media (min-width:768px){.navbar-nav>li>a{padding-top:30px;padding-bottom:30px}}.footer{background:#eee;box-shadow:1px 0 1px 0 #ddd;padding:15px 0;margin-top:40px;text-align:center}@media (min-width:768px){.footer{background:#eee;padding:15px 0;position:fixed;bottom:0;left:0;right:0;text-align:left}}.footer .footer-menu{display:block;list-style:none}.footer .footer-menu li{display:inline-block;font-size:14px;padding:5px 0;color:#333}.footer .footer-menu li:nth-child(1) a{border-left:none}.footer .footer-menu li a{color:#333;padding:0 10px;border-left:1px solid #ccc}.footer .footer-menu li a:hover{color:#1abc9c}.footer .copyright-text{font-size:12px;color:#888;text-align:center;padding:6px 0}@media (min-width:768px){.footer .copyright-text{text-align:right}}.product-container{padding:30px 0 60px}.product-container .product-filters{display:block;list-style:none}.product-container .product-filters li{display:inline-block;margin:0 3px 5px}.product-container .product-filters li a{color:#1abc9c;padding:5px 15px;background:#fff;border-radius:5px;border:1px solid #1abc9c;display:inline-block}.product-container .product-filters li a:hover{color:#fff;background:#1abc9c}.product-img img{border-radius:5px}.product-img .product-img-thumbnail img{min-height:70px;width:24%;margin:5px 1% 0 0;float:left}.product-img .product-img-thumbnail img:nth-child(4n+4){margin-right:0;width:25%}.owl-carousel .owl-item img{height:250px}.owl-carousel .owl-dots{display:none}.owl-carousel.owl-theme .owl-nav{margin-top:25px}.owl-carousel.owl-theme .owl-nav [class*=owl-]{color:#1abc9c;padding:5px 15px;background:#fff;border-radius:5px;border:1px solid #1abc9c;display:inline-block;text-transform:capitalize}.owl-carousel.owl-theme .owl-nav [class*=owl-]:hover{color:#fff;background:#1abc9c}.page-title{padding:40px 0;color:#fff;background:#1abc9c;font-size:28px;text-transform:uppercase;margin-bottom:30px}.iframe-box iframe{width:100%;height:200px;box-shadow:0 0 2px 1px #ddd}
+/*
+Theme Name: ror
+Theme URI: http://projectname.com/
+Author: Mangal Jain
+Author URI: Mangal Jain
+Description: Simple and Clean Website , Flat ui color.
+Text Domain: ror
+Version: 1.0
+
+This theme, is Designed and Developed by Mangal Jain.
+Get in touch with me to get a custom WordPress theme like this.
+*/
+@charset "utf-8";
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+}
+/* Header */
+.header.home-page .navbar-default {
+  box-shadow: 0px 1px 2px 0px #dddddd;
+}
+.header .navbar-default {
+  background: #ffffff;
+  border: none;
+}
+.header .navbar-default.navbar {
+  min-height: 80px;
+  margin: 0;
+}
+.header .navbar-default .navbar-nav > .active > a,
+.header .navbar-default .navbar-nav > .active > a:focus,
+.header .navbar-default .navbar-nav > .active > a:hover,
+.header .navbar-default .navbar-nav > li > a:focus,
+.header .navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  background-color: #1abc9c;
+}
+.header .navbar-default .navbar-toggle {
+  margin-top: 25px;
+  background-color: #1abc9c;
+}
+.header .navbar-default .navbar-toggle:focus,
+.header .navbar-default .navbar-toggle:hover {
+  background-color: #1abc9c;
+}
+.header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.header .navbar-header .navbar-brand {
+  line-height: normal;
+  min-height: 80px;
+  padding: 30px 15px;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+/* Footer */
+.footer {
+  background: #eeeeee;
+  box-shadow: 1px 0px 1px 0px #dddddd;
+  padding: 15px 0px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer {
+    background: #eeeeee;
+    padding: 15px 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+  }
+}
+.footer .footer-menu {
+  display: block;
+  list-style: none;
+}
+.footer .footer-menu li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 5px 0px;
+  color: #333333;
+}
+.footer .footer-menu li:nth-child(1) a {
+  border-left: none;
+}
+.footer .footer-menu li a {
+  color: #333333;
+  padding: 0px 10px;
+  border-left: 1px solid #cccccc;
+}
+.footer .footer-menu li a:hover {
+  color: #1abc9c;
+}
+.footer .copyright-text {
+  font-size: 12px;
+  color: #888888;
+  text-align: center;
+  padding: 6px 0px;
+}
+@media (min-width: 768px) {
+  .footer .copyright-text {
+    text-align: right;
+  }
+}
+.content {
+  padding: 80px 0px;
+}
+/* Product section */
+.product-container {
+  padding: 30px 0px 60px;
+}
+.product-container .product-filters {
+  display: block;
+  list-style: none;
+}
+.product-container .product-filters li {
+  display: inline-block;
+  margin: 0px 3px 5px;
+}
+.product-container .product-filters li a {
+  color: #1abc9c;
+  padding: 5px 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #1abc9c;
+  display: inline-block;
+}
+.product-container .product-filters li a:hover {
+  color: white;
+  background: #1abc9c;
+}
+.product-img img {
+  border-radius: 5px;
+}
+.product-img .product-img-thumbnail img {
+  min-height: 70px;
+  width: 24%;
+  margin: 5px 1% 0px 0px;
+  float: left;
+}
+.product-img .product-img-thumbnail img:nth-child(4n + 4) {
+  margin-right: 0px;
+  width: 25%;
+}
+/* Owl Carousel */
+.owl-carousel .owl-item img {
+  height: 250px;
+}
+.owl-carousel .owl-dots {
+  display: none;
+}
+.owl-carousel.owl-theme .owl-nav {
+  margin-top: 25px;
+}
+.owl-carousel.owl-theme .owl-nav [class*='owl-'] {
+  color: #1abc9c;
+  padding: 5px 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #1abc9c;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.owl-carousel.owl-theme .owl-nav [class*='owl-']:hover {
+  color: white;
+  background: #1abc9c;
+}
+/* About us page */
+.page-title {
+  padding: 40px 0px;
+  color: #ffffff;
+  background: #1abc9c;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.page-title h1 {
+  margin: 0px;
+}
+.iframe-box iframe {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 0px 2px 1px #dddddd;
+}
