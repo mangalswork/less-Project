@@ -131,7 +131,7 @@ body {
 }
 
 .content {
-  padding: 80px 0px;
+  padding: 60px 0px;
 }
 
 /* Product section */
@@ -161,12 +161,15 @@ body {
 .product-img {
   img {
     border-radius: 5px;
+    filter: invert(0.03);
   }
   .product-img-thumbnail {
+    display: flex;
+    justify-content: space-between;
     img {
-      min-height: 70px;
-      width: 24%;
-      margin: 5px 1% 0px 0px;
+      height: 70px;
+      width: calc(92% / 4);
+      margin-top: 5px;
       float: left;
       &:nth-child(4n + 4) {
         margin-right: 0px;
@@ -181,6 +184,7 @@ body {
   .owl-item {
     img {
       height: 250px;
+      filter: invert(0.03);
     }
   }
   .owl-dots {
@@ -208,7 +212,7 @@ body {
 
 /* About us page */
 .page-title {
-  padding: 40px 0px;
+  padding: 25px 0px;
   color: #ffffff;
   background: #1abc9c;
   font-size: 28px;
