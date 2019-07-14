@@ -143,16 +143,34 @@ body {
     li {
       display: inline-block;
       margin: 0px 3px 5px;
-      a {
+      .btn-default {
+        border-color: #1abc9c;
         color: #1abc9c;
-        padding: 5px 15px;
         background: #ffffff;
-        border-radius: 5px;
-        border: 1px solid #1abc9c;
-        display: inline-block;
-        &:hover {
+        &:hover,
+        &:focus {
           color: white;
           background: #1abc9c;
+          border-color: #1abc9c;
+        }
+      }
+      .dropdown-menu {
+        margin: 0px;
+        padding: 0px;
+        li {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          padding: 5px 10px;
+          margin: 0px;
+          font-size: 13px;
+          &:hover {
+            background: #1abc9c;
+            color: white;
+          }
+          input {
+            margin: 0px 8px 0px 0px;
+          }
         }
       }
     }

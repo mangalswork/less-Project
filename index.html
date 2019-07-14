@@ -59,11 +59,49 @@
         <div class="container">
           <div class="col-xs-10 col-xs-offset-1 text-center">
             <ul class="product-filters p-b-lg ui-draggable" id="draggable">
-              <li><a href="seb://SebClientSettings.seb">Suit</a></li>
-              <li><a href="#">Indo-Western</a></li>
-              <li><a href="#">Kurta-Pajama</a></li>
-              <li><a href="#">Blazzer</a></li>
-              <li><a href="#">Kurta-Lungi</a></li>
+              <li>
+                <div class="dropdown">
+                  <button
+                    class="btn btn-default dropdown-toggle"
+                    type="button"
+                    data-toggle="dropdown"
+                  >
+                    Categories
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><input type="checkbox" /> <label>Suits</label></li>
+                    <li><input type="checkbox" /> <label>Taxedo</label></li>
+                    <li>
+                      <input type="checkbox" /> <label>Kurta Pajama</label>
+                    </li>
+                    <li><input type="checkbox" /> <label>Jodhpuri</label></li>
+                    <li><input type="checkbox" /> <label>Achkan</label></li>
+                    <li>
+                      <input type="checkbox" /> <label>Indo Western</label>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <button
+                    class="btn btn-default dropdown-toggle"
+                    type="button"
+                    data-toggle="dropdown"
+                  >
+                    Size
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><input type="checkbox" /> <label>Small</label></li>
+                    <li><input type="checkbox" /> <label>Medium</label></li>
+                    <li><input type="checkbox" /> <label>Large</label></li>
+                    <li><input type="checkbox" /> <label>XL</label></li>
+                    <li><input type="checkbox" /> <label>XXL</label></li>
+                  </ul>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
